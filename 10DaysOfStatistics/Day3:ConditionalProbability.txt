@@ -1,0 +1,19 @@
+Possible cases:
+
+	 1st  || 2nd 
+     1st BB   || BG
+     2nd GB   || GG
+
+Knowing that 1 of them is a boy (B), that leaves us with 3 possible cases: {(B,B), (B,G), (G,B)}
+The one we are interested in is (B,B), therefore, P=1/3
+
+OR
+Using the conditional probability...
+
+P(BB|B) = P(B|BB)*P(BB)/P(B)
+
+P(B) = P(BB) * P(GB) + P(BG) = 3*(1/4) = 3/4
+P(BB) = 1/4
+P(B|BB) =1 (duh)
+
+-> P(BB|B)=1*(1/4)/(3/4) = 1/3	

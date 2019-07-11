@@ -1,0 +1,19 @@
+eq 1: y = -3x/4 -2
+eq 2: x= -3y/4 -7/4
+
+m1 = -3/4
+m2 = -3/4
+
+r correlation coefficient
+
+m1=r(std_y/std_x)
+m2=r(std_x/std_y)
+
+multiplying the above:
+m1*m2=r²*(std_y/std_y)*(std_x/std_x)
+r=sqrt(m1*m2)
+
+r= -3/4 or 3/4
+
+Since both original eqs have a negative m (slope), they are negatively correlated -> answer is -3/4
+

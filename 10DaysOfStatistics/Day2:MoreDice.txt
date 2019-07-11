@@ -1,0 +1,4 @@
+Total possibilities : 6*6=36
+Favorable cases (i.e., the cases where the numbers are different and thier sum is 6: {(1,5),(5,1),(2,4),(4,2)} : 4
+
+Therefore, P=4/36=1/9

@@ -1,0 +1,13 @@
+The first card drawn is any in the deck. The 2nd has to be one of the 12 left (out of 13) of the same suit as the first one, out of the remaining 51 cards.
+Therefore, P=12/51
+
+With Permutations:
+Events of interest: (4 1) * (13 2) = 4!/(1!(4-1)!) * 13!/(2!(13-2)!)=
+		                   = 4!/3! * 13!/2!*11!=
+				   = 4 * 13*12/2
+				   = 312
+Total Events: (52 2) = 52!/(2!(52-2)!)
+		     = 52*51/2
+		     = 1326
+
+P = 312/1326 = 1/17 

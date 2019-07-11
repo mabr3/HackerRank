@@ -1,0 +1,26 @@
+X:
+P(red_X)=4/7
+P(black_X)=3/7
+
+Y:
+P(red_Y)=5/9
+P(black_Y)=4/9
+
+Z:
+P(red_Z)=4/8=1/2
+P(black_Z)=4/8=1/2
+
+One ball from each urn -> no need to have Probability of taking the ball from X, Y, or Z.
+
+Favorable cases:
+X Y Z
+R R B -> P(red_X)*P(red_Y)*P(black_Z)
+R B R -> P(red_X)*P(black_Y)*P(red_Z)
+B R R -> P(black_X)*P(red_Y)*P(red_Z)
+
+P = sum Favorable cases=
+  = (4/7)*(5/9)*(1/2) + (4/7)*(4/9)*(1/2) + (3/7)*(5/9)*(1/2)
+  = 20/126 + 16/126 + 15/126 =
+  = 51/126
+  = 17/42
+
